@@ -1,0 +1,177 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946419179.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946419179.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub\"}",
+      "children" : [ {
+        "name" : "monthFormatZeroesCredit()",
+        "uid" : "3be5c6e40742b8f7",
+        "parentUid" : "243b21e0e907046fa80d098ea9fb974f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668946413993,
+          "stop" : 1668946419578,
+          "duration" : 5585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "243b21e0e907046fa80d098ea9fb974f"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946474410.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946474410.1.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failCredit()",
+        "uid" : "35258597f331be3e",
+        "parentUid" : "8da0514987025d2d018171d66819c9f5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668946458230,
+          "stop" : 1668946474654,
+          "duration" : 16424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8da0514987025d2d018171d66819c9f5"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947127852.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947127852.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failPurchase()",
+        "uid" : "c96f14f301c02470",
+        "parentUid" : "f33c7e31f303768132976edf81503307",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947111800,
+          "stop" : 1668947128139,
+          "duration" : 16339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f33c7e31f303768132976edf81503307"
+    }, {
+      "name" : "Element not found {#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947154137.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947154137.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub\"}",
+      "children" : [ {
+        "name" : "monthFormatZeroesPurchase()",
+        "uid" : "5a82a361b8d420e3",
+        "parentUid" : "f3d71edb48b83d104a941716de1aaa1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947148966,
+          "stop" : 1668947154419,
+          "duration" : 5453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3d71edb48b83d104a941716de1aaa1c"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947342426.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947342426.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failCreditSQL()",
+        "uid" : "e9ab0413d628dcd",
+        "parentUid" : "0a1a9fd505cfce39d57ec8d1a14f815f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947320495,
+          "stop" : 1668947342717,
+          "duration" : 22222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a1a9fd505cfce39d57ec8d1a14f815f"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947358957.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947358957.1.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failPurchaseSQL()",
+        "uid" : "8e457618b36711b1",
+        "parentUid" : "0fe4c780b8cac05ec6c8c971591909d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947342817,
+          "stop" : 1668947359191,
+          "duration" : 16374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0fe4c780b8cac05ec6c8c971591909d7"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failCreditPostgre()",
+        "uid" : "d402a9003cc9b38d",
+        "parentUid" : "bd14da2693b9ee3e8b256e187436badb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947556136,
+          "stop" : 1668947572600,
+          "duration" : 16464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd14da2693b9ee3e8b256e187436badb"
+    }, {
+      "name" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.html\r\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "failPurchasePostgre()",
+        "uid" : "7df702a9babfa440",
+        "parentUid" : "495fc751f0ea5637f5aef680bd3f4312",
+        "status" : "failed",
+        "time" : {
+          "start" : 1668947572615,
+          "stop" : 1668947588864,
+          "duration" : 16249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "495fc751f0ea5637f5aef680bd3f4312"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

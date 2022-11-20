@@ -1,0 +1,1036 @@
+{
+  "617f0899304927525fd4dc7f77183cd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46a4783011dea44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946411492,
+        "stop" : 1668946412860,
+        "duration" : 1368
+      }
+    } ]
+  },
+  "2208f3d7d51b4e24b60013004acc20c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be90a8acc41ac140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946505677,
+        "stop" : 1668946506906,
+        "duration" : 1229
+      }
+    } ]
+  },
+  "5dcf6c547c0fcbcedc4af3e2f92918ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2844e0c93ebae0c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947187608,
+        "stop" : 1668947188806,
+        "duration" : 1198
+      }
+    } ]
+  },
+  "2d38159bd871caac50374d19570d0091" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "790bd4754e5aaed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946490709,
+        "stop" : 1668946491952,
+        "duration" : 1243
+      }
+    } ]
+  },
+  "8e086b8bbb3b056b1e10360967955d54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "569e38d05b33401a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947155571,
+        "stop" : 1668947166459,
+        "duration" : 10888
+      }
+    } ]
+  },
+  "2e310935c58096bafe4139d8c30a77f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31c2e8c74cdd3e8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946508147,
+        "stop" : 1668946509436,
+        "duration" : 1289
+      }
+    } ]
+  },
+  "32d8e410ac62ca36d6187c3255feb89a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efa7d6a27fefb426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947166463,
+        "stop" : 1668947167658,
+        "duration" : 1195
+      }
+    } ]
+  },
+  "4b4d03797252738587a62f1be3ce86ee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3be5c6e40742b8f7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946419179.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946419179.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub\"}",
+      "time" : {
+        "start" : 1668946413993,
+        "stop" : 1668946419578,
+        "duration" : 5585
+      }
+    } ]
+  },
+  "97150c3d36ec74c5847d171678b8edb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89c868a8b907d6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947200377,
+        "stop" : 1668947201552,
+        "duration" : 1175
+      }
+    } ]
+  },
+  "ccc941250b32fc8248f6e597dcfd1526" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab5d88a1da5c7bb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946412869,
+        "stop" : 1668946413988,
+        "duration" : 1119
+      }
+    } ]
+  },
+  "db7fe145a9f7f9608d7dccb400c7928c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca66e5eea231075f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947177964,
+        "stop" : 1668947178288,
+        "duration" : 324
+      }
+    } ]
+  },
+  "dc920c410958da1d0f83eb46f7c70f07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6bc0dba4d264e371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947363927,
+        "stop" : 1668947366781,
+        "duration" : 2854
+      }
+    } ]
+  },
+  "b750c83e219eb724459a8d29980699f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecf4c3be349bf59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946450052,
+        "stop" : 1668946457911,
+        "duration" : 7859
+      }
+    } ]
+  },
+  "1272a7d37507320922936065c84392dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc9ce9ad5fe64b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946480492,
+        "stop" : 1668946490698,
+        "duration" : 10206
+      }
+    } ]
+  },
+  "ceb8698e5fd2e67a206302f4c7b1dc00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e6af1e3db5b229c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947178292,
+        "stop" : 1668947179450,
+        "duration" : 1158
+      }
+    } ]
+  },
+  "250b889717e72f67879c04c4e372e7d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a3ac43dbb342642",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947188810,
+        "stop" : 1668947193533,
+        "duration" : 4723
+      }
+    } ]
+  },
+  "ab8e4ea9e36ccdbde82da3f8796c47cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2c79da65092be9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947140762,
+        "stop" : 1668947144435,
+        "duration" : 3673
+      }
+    } ]
+  },
+  "cc2fe98aaf9eaec095094c2a291361ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "298b371744bdacf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946444816,
+        "stop" : 1668946448828,
+        "duration" : 4012
+      }
+    } ]
+  },
+  "8ee4b21e0b46c1bb1b8e9d2ffe9d4b52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e0d71c1528ced90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947179462,
+        "stop" : 1668947186325,
+        "duration" : 6863
+      }
+    } ]
+  },
+  "60acd63535deda3402993111dfb747a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a281138d69a771ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946475839,
+        "stop" : 1668946480487,
+        "duration" : 4648
+      }
+    } ]
+  },
+  "c17bd2d0a95f56bbd395f67850c7c27c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b26deb314e2841c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947193538,
+        "stop" : 1668947200373,
+        "duration" : 6835
+      }
+    } ]
+  },
+  "374104a363df31b99e345233224c4df5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e457618b36711b1",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947358957.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947358957.1.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668947342817,
+        "stop" : 1668947359191,
+        "duration" : 16374
+      }
+    } ]
+  },
+  "28489cd4c82c362aba45e2490a5b4265" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b67189d2f294aea2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947146704,
+        "stop" : 1668947147851,
+        "duration" : 1147
+      }
+    } ]
+  },
+  "c459c977521c5a1f6387e2f6e5fc922f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5ca84d1c25bd8ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946443689,
+        "stop" : 1668946444812,
+        "duration" : 1123
+      }
+    } ]
+  },
+  "a843a2c50b16496138b5c8eb23861130" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d87a0e749857899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946448832,
+        "stop" : 1668946450048,
+        "duration" : 1216
+      }
+    } ]
+  },
+  "e1f6a5f71a52357842b9c797a8ffed4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7df702a9babfa440",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668947572615,
+        "stop" : 1668947588864,
+        "duration" : 16249
+      }
+    } ]
+  },
+  "d176af43398702be349144eecc848d62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2f4b179ba1fbdda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947144440,
+        "stop" : 1668947145538,
+        "duration" : 1098
+      }
+    } ]
+  },
+  "f8426ba829668a89b8baad697a046cdb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c96f14f301c02470",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947127852.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947127852.0.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668947111800,
+        "stop" : 1668947128139,
+        "duration" : 16339
+      }
+    } ]
+  },
+  "cdd332791f82dbb53f691be7d585e3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b7766c91807976a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946501953,
+        "stop" : 1668946505673,
+        "duration" : 3720
+      }
+    } ]
+  },
+  "62e7c00f088be687046b3c0807b0e1b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd91e664b59f6ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946491956,
+        "stop" : 1668946500813,
+        "duration" : 8857
+      }
+    } ]
+  },
+  "84e6d571365266aac51eae63f8cd687" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9db6f7392f9abfb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947145543,
+        "stop" : 1668947146678,
+        "duration" : 1135
+      }
+    } ]
+  },
+  "28dfffb6cd8203f386a3a19263d16e4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e64fba3ac3d4c5f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947201557,
+        "stop" : 1668947202797,
+        "duration" : 1240
+      }
+    } ]
+  },
+  "53073f6c212cd96477a673ece5c1366c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78bfbf42eb2905d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946457921,
+        "stop" : 1668946458226,
+        "duration" : 305
+      }
+    } ]
+  },
+  "3b486109381cfcbd0bc2151483752000" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58b7fa56364148cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946431527,
+        "stop" : 1668946432694,
+        "duration" : 1167
+      }
+    } ]
+  },
+  "5154367df5b535d0ef7684423e19184c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb7d56d945ac6d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946506914,
+        "stop" : 1668946508139,
+        "duration" : 1225
+      }
+    } ]
+  },
+  "559696923033af9aa6e7b6630cc4a08b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f5ad2e345e3a488",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946500818,
+        "stop" : 1668946501948,
+        "duration" : 1130
+      }
+    } ]
+  },
+  "93ce1c50b29a6409a6e520c9b10b46cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e69f92c2e5c89d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947104518,
+        "stop" : 1668947111663,
+        "duration" : 7145
+      }
+    } ]
+  },
+  "d21133fdb9fd19329deb734e6b052446" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a36d772eeee86aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947128150,
+        "stop" : 1668947134343,
+        "duration" : 6193
+      }
+    } ]
+  },
+  "c57aa7dbd0a98b809beed00a00b2bacb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9ab0413d628dcd",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947342426.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947342426.0.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668947320495,
+        "stop" : 1668947342717,
+        "duration" : 22222
+      }
+    } ]
+  },
+  "be1b09e724a78e842fa95aba660c6679" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d402a9003cc9b38d",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668947556136,
+        "stop" : 1668947572600,
+        "duration" : 16464
+      }
+    } ]
+  },
+  "f42e4af42130f7c01eef3d3dd871ee88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c514d4d5d31ef8bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947541230,
+        "stop" : 1668947556005,
+        "duration" : 14775
+      }
+    } ]
+  },
+  "64be35eb7e8812dbe0cb3089481ff60f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e727f39128aaa41f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947134348,
+        "stop" : 1668947140755,
+        "duration" : 6407
+      }
+    } ]
+  },
+  "10096fbd9cd2fe5db0763bb7e4ce7469" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69b5f4ab70b5eb0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946419587,
+        "stop" : 1668946431522,
+        "duration" : 11935
+      }
+    } ]
+  },
+  "a675dde268d861bf8839315c388ea6ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16c17f21a5b13bab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947154424,
+        "stop" : 1668947155567,
+        "duration" : 1143
+      }
+    } ]
+  },
+  "5b5b0e35f7c01d14fa2b5d4c7e437147" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5205507b14373cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947147860,
+        "stop" : 1668947148962,
+        "duration" : 1102
+      }
+    } ]
+  },
+  "45f35a71e4d7588baac491b6ab0a952" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35258597f331be3e",
+      "status" : "failed",
+      "statusDetails" : "Element should have visible {with text: Ошибка}\r\nElement: '<div class=\"notification__title\" displayed:false></div>'\r\nActual value: visible:false\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946474410.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668946474410.1.html\r\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1668946458230,
+        "stop" : 1668946474654,
+        "duration" : 16424
+      }
+    } ]
+  },
+  "addf38d1f229358d9bfd42ad0a144eaf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdabf1a5d9b20d40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947588871,
+        "stop" : 1668947592042,
+        "duration" : 3171
+      }
+    } ]
+  },
+  "e87c29124cdc1ef86c30a76a95d98389" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9be35aa79b5186c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947167662,
+        "stop" : 1668947177958,
+        "duration" : 10296
+      }
+    } ]
+  },
+  "dacb355450d3af4dba25d1b834aef9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ddd58cee615f005",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946400108,
+        "stop" : 1668946411228,
+        "duration" : 11120
+      }
+    } ]
+  },
+  "5a98a39efae6812154451e5f047335cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "486bf1877fc23aa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947359201,
+        "stop" : 1668947363920,
+        "duration" : 4719
+      }
+    } ]
+  },
+  "4e5a30283d9ebd405ea9b10f4400b7b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c67219dd69e4e75f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946432699,
+        "stop" : 1668946443682,
+        "duration" : 10983
+      }
+    } ]
+  },
+  "974dcbd2723ffbfc6df2f0985c9e3873" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a82a361b8d420e3",
+      "status" : "failed",
+      "statusDetails" : "Element not found {#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub}\r\nExpected: text 'Неверно указан срок действия карты'\r\nScreenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947154137.1.png\r\nPage source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947154137.1.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > form > fieldset > div:nth-child(2) > span > span:nth-child(1) > span > span > span.input__sub\"}",
+      "time" : {
+        "start" : 1668947148966,
+        "stop" : 1668947154419,
+        "duration" : 5453
+      }
+    } ]
+  },
+  "5fe5fc824cc0df7d7865642bb7a05e75" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7dd2ae1811622054",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668946474659,
+        "stop" : 1668946475832,
+        "duration" : 1173
+      }
+    } ]
+  },
+  "c8298f584860ff43f2f69a5f63611254" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b902ccb1e0183636",
+      "status" : "passed",
+      "time" : {
+        "start" : 1668947186481,
+        "stop" : 1668947187603,
+        "duration" : 1122
+      }
+    } ]
+  }
+}

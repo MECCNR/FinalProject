@@ -1,4 +1,8 @@
+import com.codeborne.selenide.logevents.SelenideLogger;
 import data.Data;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pages.DBProgramsMySQL;
@@ -10,6 +14,11 @@ import static data.Data.getWrongUser;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FinalTestDBMySQL {
+
+    @BeforeAll
+    static void setUpALl() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
     @BeforeEach
     void setup() {
         open("http://localhost:8080");
@@ -66,5 +75,10 @@ public class FinalTestDBMySQL {
         String expected = "DECLINED";
 
         assertEquals(expected, actual);
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
     }
 }

@@ -1,0 +1,541 @@
+[ {
+  "uid" : "b2f4b179ba1fbdda",
+  "name" : "yearFormatEmptyPurchase()",
+  "time" : {
+    "start" : 1668947144440,
+    "stop" : 1668947145538,
+    "duration" : 1098
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e6af1e3db5b229c",
+  "name" : "numberFormatPartialPurchase()",
+  "time" : {
+    "start" : 1668947178292,
+    "stop" : 1668947179450,
+    "duration" : 1158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e457618b36711b1",
+  "name" : "failPurchaseSQL()",
+  "time" : {
+    "start" : 1668947342817,
+    "stop" : 1668947359191,
+    "duration" : 16374
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d402a9003cc9b38d",
+  "name" : "failCreditPostgre()",
+  "time" : {
+    "start" : 1668947556136,
+    "stop" : 1668947572600,
+    "duration" : 16464
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e0d71c1528ced90",
+  "name" : "successPurchase()",
+  "time" : {
+    "start" : 1668947179462,
+    "stop" : 1668947186325,
+    "duration" : 6863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "790bd4754e5aaed9",
+  "name" : "yearFormatPreviousCredit()",
+  "time" : {
+    "start" : 1668946490709,
+    "stop" : 1668946491952,
+    "duration" : 1243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc9ce9ad5fe64b3b",
+  "name" : "successCredit()",
+  "time" : {
+    "start" : 1668946480492,
+    "stop" : 1668946490698,
+    "duration" : 10206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7dd2ae1811622054",
+  "name" : "monthFormatThirteenCredit()",
+  "time" : {
+    "start" : 1668946474659,
+    "stop" : 1668946475832,
+    "duration" : 1173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2844e0c93ebae0c1",
+  "name" : "codeFormatPartialPurchase()",
+  "time" : {
+    "start" : 1668947187608,
+    "stop" : 1668947188806,
+    "duration" : 1198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c514d4d5d31ef8bd",
+  "name" : "successPurchasePostgre()",
+  "time" : {
+    "start" : 1668947541230,
+    "stop" : 1668947556005,
+    "duration" : 14775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca66e5eea231075f",
+  "name" : "blankFieldPurchase()",
+  "time" : {
+    "start" : 1668947177964,
+    "stop" : 1668947178288,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "569e38d05b33401a",
+  "name" : "monthFormatOnePurchase()",
+  "time" : {
+    "start" : 1668947155571,
+    "stop" : 1668947166459,
+    "duration" : 10888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5205507b14373cb",
+  "name" : "numberFormatEmptyPurchase()",
+  "time" : {
+    "start" : 1668947147860,
+    "stop" : 1668947148962,
+    "duration" : 1102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efa7d6a27fefb426",
+  "name" : "yearFormatSixPurchase()",
+  "time" : {
+    "start" : 1668947166463,
+    "stop" : 1668947167658,
+    "duration" : 1195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69b5f4ab70b5eb0c",
+  "name" : "monthFormatElevenCredit()",
+  "time" : {
+    "start" : 1668946419587,
+    "stop" : 1668946431522,
+    "duration" : 11935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "298b371744bdacf4",
+  "name" : "monthFormatTwelveCredit()",
+  "time" : {
+    "start" : 1668946444816,
+    "stop" : 1668946448828,
+    "duration" : 4012
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bc0dba4d264e371",
+  "name" : "successPurchaseSQL()",
+  "time" : {
+    "start" : 1668947363927,
+    "stop" : 1668947366781,
+    "duration" : 2854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31c2e8c74cdd3e8a",
+  "name" : "numberFormatPartialCredit()",
+  "time" : {
+    "start" : 1668946508147,
+    "stop" : 1668946509436,
+    "duration" : 1289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b67189d2f294aea2",
+  "name" : "yearFormatPartialPurchase()",
+  "time" : {
+    "start" : 1668947146704,
+    "stop" : 1668947147851,
+    "duration" : 1147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c67219dd69e4e75f",
+  "name" : "yearFormatFourCredit()",
+  "time" : {
+    "start" : 1668946432699,
+    "stop" : 1668946443682,
+    "duration" : 10983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f5ad2e345e3a488",
+  "name" : "yearFormatEmptyCredit()",
+  "time" : {
+    "start" : 1668946500818,
+    "stop" : 1668946501948,
+    "duration" : 1130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd91e664b59f6ac6",
+  "name" : "yearFormatNextCredit()",
+  "time" : {
+    "start" : 1668946491956,
+    "stop" : 1668946500813,
+    "duration" : 8857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78bfbf42eb2905d6",
+  "name" : "blankFieldCredit()",
+  "time" : {
+    "start" : 1668946457921,
+    "stop" : 1668946458226,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "486bf1877fc23aa1",
+  "name" : "successCreditSQL()",
+  "time" : {
+    "start" : 1668947359201,
+    "stop" : 1668947363920,
+    "duration" : 4719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5ca84d1c25bd8ae",
+  "name" : "monthFormatEmptyCredit()",
+  "time" : {
+    "start" : 1668946443689,
+    "stop" : 1668946444812,
+    "duration" : 1123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16c17f21a5b13bab",
+  "name" : "codeFormatEmptyPurchase()",
+  "time" : {
+    "start" : 1668947154424,
+    "stop" : 1668947155567,
+    "duration" : 1143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89c868a8b907d6cd",
+  "name" : "monthFormatThirteenPurchase()",
+  "time" : {
+    "start" : 1668947200377,
+    "stop" : 1668947201552,
+    "duration" : 1175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdabf1a5d9b20d40",
+  "name" : "successCreditPostgre()",
+  "time" : {
+    "start" : 1668947588871,
+    "stop" : 1668947592042,
+    "duration" : 3171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b26deb314e2841c4",
+  "name" : "monthFormatTwelvePurchase()",
+  "time" : {
+    "start" : 1668947193538,
+    "stop" : 1668947200373,
+    "duration" : 6835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9db6f7392f9abfb3",
+  "name" : "monthFormatEmptyPurchase()",
+  "time" : {
+    "start" : 1668947145543,
+    "stop" : 1668947146678,
+    "duration" : 1135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9ab0413d628dcd",
+  "name" : "failCreditSQL()",
+  "time" : {
+    "start" : 1668947320495,
+    "stop" : 1668947342717,
+    "duration" : 22222
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecf4c3be349bf59",
+  "name" : "monthFormatTwoCredit()",
+  "time" : {
+    "start" : 1668946450052,
+    "stop" : 1668946457911,
+    "duration" : 7859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e727f39128aaa41f",
+  "name" : "yearFormatFourPurchase()",
+  "time" : {
+    "start" : 1668947134348,
+    "stop" : 1668947140755,
+    "duration" : 6407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a281138d69a771ab",
+  "name" : "yearFormatFiveCredit()",
+  "time" : {
+    "start" : 1668946475839,
+    "stop" : 1668946480487,
+    "duration" : 4648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b902ccb1e0183636",
+  "name" : "nameFormatEmptyPurchase()",
+  "time" : {
+    "start" : 1668947186481,
+    "stop" : 1668947187603,
+    "duration" : 1122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9be35aa79b5186c7",
+  "name" : "yearFormatNextPurchase()",
+  "time" : {
+    "start" : 1668947167662,
+    "stop" : 1668947177958,
+    "duration" : 10296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c79da65092be9c",
+  "name" : "monthFormatElevenPurchase()",
+  "time" : {
+    "start" : 1668947140762,
+    "stop" : 1668947144435,
+    "duration" : 3673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d87a0e749857899",
+  "name" : "yearFormatSixCredit()",
+  "time" : {
+    "start" : 1668946448832,
+    "stop" : 1668946450048,
+    "duration" : 1216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46a4783011dea44",
+  "name" : "codeFormatPartialCredit()",
+  "time" : {
+    "start" : 1668946411492,
+    "stop" : 1668946412860,
+    "duration" : 1368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35258597f331be3e",
+  "name" : "failCredit()",
+  "time" : {
+    "start" : 1668946458230,
+    "stop" : 1668946474654,
+    "duration" : 16424
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e64fba3ac3d4c5f3",
+  "name" : "yearFormatPreviousPurchase()",
+  "time" : {
+    "start" : 1668947201557,
+    "stop" : 1668947202797,
+    "duration" : 1240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ddd58cee615f005",
+  "name" : "numberFormatEmptyCredit()",
+  "time" : {
+    "start" : 1668946400108,
+    "stop" : 1668946411228,
+    "duration" : 11120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3be5c6e40742b8f7",
+  "name" : "monthFormatZeroesCredit()",
+  "time" : {
+    "start" : 1668946413993,
+    "stop" : 1668946419578,
+    "duration" : 5585
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7d56d945ac6d73",
+  "name" : "monthFormatPartialCredit()",
+  "time" : {
+    "start" : 1668946506914,
+    "stop" : 1668946508139,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be90a8acc41ac140",
+  "name" : "yearFormatPartialCredit()",
+  "time" : {
+    "start" : 1668946505677,
+    "stop" : 1668946506906,
+    "duration" : 1229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7df702a9babfa440",
+  "name" : "failPurchasePostgre()",
+  "time" : {
+    "start" : 1668947572615,
+    "stop" : 1668947588864,
+    "duration" : 16249
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b7766c91807976a",
+  "name" : "monthFormatOneCredit()",
+  "time" : {
+    "start" : 1668946501953,
+    "stop" : 1668946505673,
+    "duration" : 3720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c96f14f301c02470",
+  "name" : "failPurchase()",
+  "time" : {
+    "start" : 1668947111800,
+    "stop" : 1668947128139,
+    "duration" : 16339
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e69f92c2e5c89d1",
+  "name" : "monthFormatPartialPurchase()",
+  "time" : {
+    "start" : 1668947104518,
+    "stop" : 1668947111663,
+    "duration" : 7145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a36d772eeee86aa",
+  "name" : "yearFormatFivePurchase()",
+  "time" : {
+    "start" : 1668947128150,
+    "stop" : 1668947134343,
+    "duration" : 6193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3ac43dbb342642",
+  "name" : "monthFormatTwoPurchase()",
+  "time" : {
+    "start" : 1668947188810,
+    "stop" : 1668947193533,
+    "duration" : 4723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a82a361b8d420e3",
+  "name" : "monthFormatZeroesPurchase()",
+  "time" : {
+    "start" : 1668947148966,
+    "stop" : 1668947154419,
+    "duration" : 5453
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab5d88a1da5c7bb8",
+  "name" : "codeFormatEmptyCredit()",
+  "time" : {
+    "start" : 1668946412869,
+    "stop" : 1668946413988,
+    "duration" : 1119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58b7fa56364148cd",
+  "name" : "nameFormatEmptyCredit()",
+  "time" : {
+    "start" : 1668946431527,
+    "stop" : 1668946432694,
+    "duration" : 1167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

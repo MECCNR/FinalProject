@@ -1,4 +1,8 @@
+import com.codeborne.selenide.logevents.SelenideLogger;
 import data.Data;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
@@ -8,6 +12,12 @@ import static data.Data.getRightUser;
 import static data.Data.getWrongUser;
 
 public class FinalTestCredit {
+
+    @BeforeAll
+    static void setUpALl() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
+
     @BeforeEach
     void setup() {
         open("http://localhost:8080");
@@ -184,5 +194,10 @@ public class FinalTestCredit {
         main.creditTest();
         main.testingBase(rightUser);
         main.codeFormatEmpty();
+    }
+
+    @AfterAll
+    static void tearDownAll() {
+        SelenideLogger.removeListener("allure");
     }
 }

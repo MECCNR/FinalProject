@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "f05a4a030949e015102bb5575f2ee09e",
+    "name" : "FinalTestCredit",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 23
+    }
+  }, {
+    "uid" : "4f59de9df41a34434f40c1021bc73c07",
+    "name" : "FinalTestPurchase",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 23
+    }
+  }, {
+    "uid" : "057039d462b90dda009da42c9a056dff",
+    "name" : "FinalTestDBMySQL",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "837aa2e0458072f7f70a9e5489551145",
+    "name" : "FinalTestDBPostgre",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}
