@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class FinalTestDBPostgre</title>
+<title>Test results - Class FinalTestPurchase</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class FinalTestDBPostgre</h1>
+<h1>Class FinalTestPurchase</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/default-package.html">default-package</a> &gt; FinalTestDBPostgre</div>
+<a href="../packages/default-package.html">default-package</a> &gt; FinalTestPurchase</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">4</div>
+<div class="counter">23</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">50.802s</div>
+<div class="counter">1m41.02s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">50%</div>
+<div class="percent">91%</div>
 <p>successful</p>
 </div>
 </td>
@@ -73,14 +73,14 @@
 <div id="tab0" class="tab">
 <h2>Failed tests</h2>
 <div class="test">
-<a name="failCreditPostgre()"></a>
-<h3 class="failures">failCreditPostgre()</h3>
+<a name="failPurchase()"></a>
+<h3 class="failures">failPurchase()</h3>
 <span class="code">
 <pre>Element should have visible {with text: Ошибка}
 Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: visible:false
-Screenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.png
-Page source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947572322.0.html
+Screenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668960449400.0.png
+Page source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668960449400.0.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
 	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -88,9 +88,9 @@ Timeout: 15 s.
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at app//com.sun.proxy.$Proxy15.shouldHave(Unknown Source)
+	at app//com.sun.proxy.$Proxy14.shouldHave(Unknown Source)
 	at app//pages.MainPage.failPurchase(MainPage.java:47)
-	at app//FinalTestDBPostgre.failCreditPostgre(FinalTestDBPostgre.java:72)
+	at app//FinalTestPurchase.failPurchase(FinalTestPurchase.java:41)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -184,24 +184,26 @@ Timeout: 15 s.
 </span>
 </div>
 <div class="test">
-<a name="failPurchasePostgre()"></a>
-<h3 class="failures">failPurchasePostgre()</h3>
+<a name="monthFormatZeroesPurchase()"></a>
+<h3 class="failures">monthFormatZeroesPurchase()</h3>
 <span class="code">
-<pre>Element should have visible {with text: Ошибка}
-Element: '&lt;div class=&quot;notification__title&quot; displayed:false&gt;&lt;/div&gt;'
-Actual value: visible:false
-Screenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.png
-Page source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668947588600.1.html
-Timeout: 15 s.
-	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:121)
+<pre>Element not found {#root &gt; div &gt; form &gt; fieldset &gt; div:nth-child(2) &gt; span &gt; span:nth-child(1) &gt; span &gt; span &gt; span.input__sub}
+Expected: text 'Неверно указан срок действия карты'
+Screenshot: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668960478118.1.png
+Page source: file:/C:/Users/Acer/IdeaProjects/BankProject/build/reports/tests/1668960478118.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#root &gt; div &gt; form &gt; fieldset &gt; div:nth-child(2) &gt; span &gt; span:nth-child(1) &gt; span &gt; span &gt; span.input__sub&quot;}
+	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:83)
+	at app//com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:136)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:114)
 	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
 	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:155)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
-	at app//com.sun.proxy.$Proxy15.shouldHave(Unknown Source)
-	at app//pages.MainPage.failPurchase(MainPage.java:47)
-	at app//FinalTestDBPostgre.failPurchasePostgre(FinalTestDBPostgre.java:50)
+	at app//com.sun.proxy.$Proxy14.shouldHave(Unknown Source)
+	at app//pages.MainPage.monthFormatZeroes(MainPage.java:92)
+	at app//FinalTestPurchase.monthFormatZeroesPurchase(FinalTestPurchase.java:82)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -291,6 +293,33 @@ Timeout: 15 s.
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#root &gt; div &gt; form &gt; fieldset &gt; div:nth-child(2) &gt; span &gt; span:nth-child(1) &gt; span &gt; span &gt; span.input__sub&quot;}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2RB2MF', ip: '172.26.80.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62c43d918858d4bdf2487c1006f5ab0e
+*** Element info: {Using=css selector, value=#root &gt; div &gt; form &gt; fieldset &gt; div:nth-child(2) &gt; span &gt; span:nth-child(1) &gt; span &gt; span &gt; span.input__sub}
+	at jdk.internal.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at java.base@11.0.15/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11.0.15/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at app//org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:59)
+	at app//com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:34)
+	at app//com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:104)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:99)
+	... 97 more
 </pre>
 </span>
 </div>
@@ -306,23 +335,118 @@ Timeout: 15 s.
 </tr>
 </thead>
 <tr>
-<td class="failures">failCreditPostgre()</td>
-<td class="failures">16.474s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="failures">failPurchasePostgre()</td>
-<td class="failures">16.253s</td>
-<td class="failures">failed</td>
-</tr>
-<tr>
-<td class="success">successCreditPostgre()</td>
-<td class="success">3.174s</td>
+<td class="success">blankFieldPurchase()</td>
+<td class="success">0.317s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">successPurchasePostgre()</td>
-<td class="success">14.901s</td>
+<td class="success">codeFormatEmptyPurchase()</td>
+<td class="success">1.144s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">codeFormatPartialPurchase()</td>
+<td class="success">1.200s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">failPurchase()</td>
+<td class="failures">16.308s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">monthFormatElevenPurchase()</td>
+<td class="success">4.730s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatEmptyPurchase()</td>
+<td class="success">1.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatOnePurchase()</td>
+<td class="success">5.781s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatPartialPurchase()</td>
+<td class="success">7.517s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatThirteenPurchase()</td>
+<td class="success">1.217s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatTwelvePurchase()</td>
+<td class="success">5.456s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">monthFormatTwoPurchase()</td>
+<td class="success">8.535s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">monthFormatZeroesPurchase()</td>
+<td class="failures">5.740s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">nameFormatEmptyPurchase()</td>
+<td class="success">1.142s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">numberFormatEmptyPurchase()</td>
+<td class="success">1.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">numberFormatPartialPurchase()</td>
+<td class="success">1.257s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">successPurchase()</td>
+<td class="success">9.417s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatEmptyPurchase()</td>
+<td class="success">1.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatFivePurchase()</td>
+<td class="success">6.156s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatFourPurchase()</td>
+<td class="success">7.810s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatNextPurchase()</td>
+<td class="success">10.281s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatPartialPurchase()</td>
+<td class="success">1.254s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatPreviousPurchase()</td>
+<td class="success">1.247s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">yearFormatSixPurchase()</td>
+<td class="success">1.219s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -330,11 +454,11 @@ Timeout: 15 s.
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 44077
+<pre>Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 10083
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-нояб. 20, 2022 9:32:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 21, 2022 1:07:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 </pre>
 </span>
@@ -347,7 +471,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 20 нояб. 2022 г., 21:33:12</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 21 нояб. 2022 г., 1:08:47</p>
 </div>
 </div>
 </body>
