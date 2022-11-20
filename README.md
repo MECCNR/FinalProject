@@ -25,4 +25,8 @@
 
 ## Тестирование совместимости БД PostgreSQL
 
-1. Заменить файлы docker-compose.yml и application.properties в artifacts, файлами из reversePostgre
+1. Заменить файлы docker-compose.yml и application.properties в artifacts, файлами из reservePOSTGRE
+2. Ввести в папке scripts команду в терминале: npm start
+3. Ввести во втором терминале: docker compose up
+4. Ввести в третьем терминале, в папке artifacts: java -jar aqa-shop.jar -port=8080
+5. Запустить тест в src/test/java/ - FinalTestDBPostgre.java
