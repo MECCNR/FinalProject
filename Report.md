@@ -37,6 +37,16 @@ https://github.com/MECCNR/FinalProject/tree/main/Итоговый%20отчёт%2
 
 [Возможность вводить только нули в поле "Месяц" на странице "AQA: Заявка на карту" при установленном году далее текущего](https://github.com/MECCNR/FinalProject/issues/2)
 
+Помимо них, также найдены... (ручное тестирование)
+
+- Пустая строка credit_id в таблице order_entity
+
+[После отправки формы в базе данных строка credit_id в order_entity заполнено null'ами](https://github.com/MECCNR/FinalProject/issues/6)
+
+- Два окошка сразу вместо одного
+
+[При вводе номера несуществующей карты система показывает окошко с отказом, сразу за которым следует окно с принятием формы](https://github.com/MECCNR/FinalProject/issues/4)
+
 
 
 ## Краткие итоги
